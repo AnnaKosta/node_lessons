@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body{
+background-color:#8080804d;}
+.container{
+    background-color: #8080803b;
+	width: calc(100% - 100px);
+	border:1px solid grey;
+	margin:50px 50px 50px 50px ;
+    background-color:#cbcdd0;
+	justify-content:center;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+     box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+
+
+.container:before, .container:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.container:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+.flex-container_f {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #cbcdd0;
+  margin:50px 50px 50px 50px ;
+}
+
+.flex-container_f>div {
+  background-color: #f1f1f1;
+ 
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.flex-container_s {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #cbcdd0;
+  margin:50px 50px 50px 50px ;
+}
+
+.flex-container_s>div {
+  background-color: #f1f1f1;
+ 
+  margin: 10px;
+  text-align: center;
+ 
+}
+
+.f_child{
+width:50%;}
+
+.s_child{width:25%;}
+.big_image{
+	width:100%;
+}
+
+.text{
+	margin:10px 10px 10px 10px;
+	
+
+}
+
+.row_image{
+width:100%;
+    height: 250px;
+	
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+
+<div class="flex-container_f">
+  <div class="f_child">
+        <img src="moni.jpg" class="big_image"/>
+		<div class="text">
+		<h5>Мо́ника А́нна Мари́я Беллу́ччи</h5>
+	    <span>Известность в кино Беллуччи принесли такие фильмы как «Дракула», «Малена», «Матрица:
+	    Перезагрузка» и «Матрица: Революция», «Страсти Христовы», «Братья Гримм», «007: Спектр»,
+	    «По млечному пути», «Астерикс и Обеликс: Миссия «Клеопатра»».
+		Известность в кино Беллуччи принесли такие фильмы как «Дракула», «Малена», «Матрица:
+	    Перезагрузка» и «Матрица: Революция», «Страсти Христовы», «Братья Гримм», «007: Спектр»,
+	    «По млечному пути», «Астерикс и Обеликс: Миссия «Клеопатра»».
+		flex-direction or irar tak @nknin toxer@Известность в кино Беллуччи принесли такие фильмы как «Дракула», «Малена», «Матрица:
+	    Перезагрузка» и «Матрица: Революция», «Страсти Христовы», «Братья Гримм», «007: Спектр»,
+	    «По млечному пути», «Астерикс и Обеликс: Миссия «Клеопатра»».
+		Известность в кино Беллуччи принесли такие фильмы как «Дракула», «Малена», «Матрица:
+	    Перезагрузка» и «Матрица: Революция», «Страсти Христовы», «Братья Гримм», «007: Спектр»,
+	    «По млечному пути», «Астерикс и Обеликс: Миссия «Клеопатра»».
+		flex-direction or irar tak @nknin toxer@</span>
+	 
+	   <div><span><a href="#">Read More</a></span></div>
+</div>
+  </div>
+<div class="s_child">
+	  <img src="salma.jpg" class="row_image"/>
+	  <div class="text"><h5>Са́льма Ха́йек Пино́</h5>
+	  <span>За свою актёрскую карьеру Хайек снялась в более чем 30 фильмах. Она первая мексиканка, которая была номинирована на премию «Оскар» за лучшую женскую роль (2003)</span>
+	 <div class="more"><span><a href="#">Read More</a></span></div>
+	</div>
+</div>
+	  <div class="s_child">
+	  <img src="ketrine.jpg" class="row_image"/>
+	  <div class="text"><h5>Кэ́трин Зе́та-Джонс</h5>
+	  <span>Кэ́трин Зе́та-Джонс (англ. Catherine Zeta-Jones; род. 25 сентября 1969 года, Суонси, Уэльс, Великобритания)
+	  — британская актриса. Лауреат премий «Оскар» (2003), BAFTA (2003) и двух Премий Гильдии киноактёров США.</span>
+	  <div><span><a href="#">Read More</a></span></div>
+	  </div>
+</div>  
+ 
+</div>
+
+
+ 
+ 
+</div>
+</div>
+</body>
+</html>
